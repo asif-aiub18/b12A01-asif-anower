@@ -1,0 +1,14 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px 10px 10px;
+}
+
+/* NAVBAR */
+.header {
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1.6rem 0;
+}
