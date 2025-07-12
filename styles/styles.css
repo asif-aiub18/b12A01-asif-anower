@@ -12,3 +12,284 @@
     background-position: center;
     padding: 1.6rem 0;
 }
+
+.header.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #4339f2;
+}
+
+.sign-btn {
+  background-color: #4339f2;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.sign-btn:hover {
+  background-color: #3729c2;
+} 
+
+/* Banner CSS */
+
+/* Banner Section */
+.hero {
+  background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 6rem 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.hero-btn {
+  background-color: #4339f2;
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #085353;
+}
+
+/* Action CSS */
+
+.action-preview {
+  padding: 6rem 1rem;
+  background-color: #fff;
+}
+
+.action-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.action-text {
+  text-align: left;
+}
+.action-text h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.action-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.action-description {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.action-btn {
+  background-color: #4339f2;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.action-btn:hover {
+  background-color: #085353;
+  transform: translateY(-2px);
+}
+
+.action-img img {
+  width: 100%;
+  border-radius: 40px;
+}
+
+/* Productive Users Section */
+
+.active-user {
+  background-color: #f1f4f8;
+  padding: 50px 80px;
+  margin: 50px 80px 50px 80px;
+  text-align: center;
+  border-radius: 24px;
+}
+
+.active-title {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.active-grid {
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.active-item h3 {
+  font-size: 2rem;
+  color: #4339f2;
+}
+
+.stat-item p {
+  color: #000000;
+}
+
+
+/* Review Section CSS */
+
+.reviews {
+  padding: 6rem 1rem;
+  background-color: #fff;
+}
+
+.review-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+
+.review-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.review {
+  background-color: #f8f9fc;
+  padding: 2rem;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.reviewer img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-weight: 600;
+}
+
+
+/* Get in Touch CSS */
+
+.contact-section {
+  padding: 6rem 1rem;
+  background-color: #f1f1f1;
+}
+
+.contact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-text {
+  text-align: left;
+  font-size: 40px;
+}
+
+.contact-form .form-group {
+  margin: 1.5rem 0;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.submit-btn {
+  background-color: #4339f2;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #085353;
+}
+
+
+/* Footer CSS */
+
+footer {
+  background-color: #f1f4f8;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.footer-logo {
+  font-size: 80px;
+  font-weight: 700;
+  color: #4339f2;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.footer-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-links a {
+  margin: 0 1rem;
+  color: #8987A1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-links a:hover {
+  color: #085353;
+}
